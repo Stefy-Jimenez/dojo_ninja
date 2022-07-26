@@ -1,11 +1,11 @@
-# Comandos aplicacion
+## Comandos aplicacion
 
 *  rails g model dojo name:string city:string state:string
 *  rails db_migrate
 *  rails g model ninja first_name:string last_name:string dojo:references
 *  rails db:migrate
 
-## Creacion de dojos
+### Creacion de dojos
 
 *  Dojo.create(name:"CodingDojo Silicon Valley", city:"Mountain View", state:"CA")
 *  Dojo.create(name:"CodingDojo Seattle", city:"Seattle", state:"WA")
